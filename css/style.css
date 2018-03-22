@@ -1,6 +1,5 @@
 html, body{
     font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
 	margin: 0;
 }
@@ -10,7 +9,6 @@ p,ul li,ol li{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Montserrat', sans-serif;
 
 }
 ul,label{
@@ -53,12 +51,12 @@ div#bs-example-navbar-collapse-1 {
 .contact-box {
     float: right;
     width: 10%;
-    margin: 15px 0 22px;
+    margin: 15px 0 15px;
 }
 .navbar-nav {
     margin-left: 5em;
 }
-.contact-box a,.w3read a:hover {
+.contact-box a,.sparead a:hover {
     background: #fff;
     padding: 10px 40px;
     font-size: 17px;
@@ -69,7 +67,7 @@ div#bs-example-navbar-collapse-1 {
     border: none;
     font-weight: 600;
 }
-.contact-box a:hover,.w3read a {
+.contact-box a:hover,.sparead a {
     background: #FFEB3B;
     padding: 10px 40px;
     font-size: 17px;
@@ -80,7 +78,7 @@ div#bs-example-navbar-collapse-1 {
     border: none;
     font-weight: 600;
 }
-.w3read {
+.sparead {
     margin-top: 4em;
 }
 .navbar-default {
@@ -89,9 +87,10 @@ div#bs-example-navbar-collapse-1 {
 }
 .navbar-default .navbar-brand {
 	color:#fff !important;
-	font-size:40px;
+	font-size:35px;
     text-transform: uppercase;
 	text-decoration: none;
+    line-height: 1;
 }
 a.navbar-brand img {
     display: inline-block;
@@ -192,9 +191,10 @@ a.navbar-brand span {
 /*-- //Info --*/
 /*-- //Top-Bar --*/
 /*-- w3-banner --*/
-.w3-banner{
+.spa-banner{
     padding: 13em 0 17em 0;
     text-align: center;
+    margin-bottom: 3em;
 }
 .banner-dott,.banner-dott1 {
     background: url(../images/dott.png)repeat 0px 0px;
@@ -204,7 +204,7 @@ a.navbar-brand span {
     -o-background-size: 2px;
     -ms-background-size: 2px;
 }
-.w3-banner p {
+.spa-banner p {
     width: 55%;
     margin: 1em auto;
     font-size: 16px;
@@ -226,7 +226,7 @@ a.navbar-brand span {
     right: 7%;
     bottom: 7%;
 }
-.w3ls-phone {
+.spals-phone {
     position: absolute;
     left: 7%;
     bottom: 7%;
@@ -249,12 +249,13 @@ a.navbar-brand span {
 .top-banner-right ul li a:hover{
     color: #CDDC39;
 }
-.w3ls-phone h2 {
-    color: #FFFFFF;
-    font-size: 1.2em;
+.spals-phone h2 {
+    color: #000;
+    font-size: 1.5em;
     margin: 0;
     text-align: center;
     font-weight: 300;
+    text-shadow: 0 1px 1px #fff;
 }
 i.fa.fa-phone {
     margin-left: 10px;
@@ -308,14 +309,21 @@ button.close {
 .gallery, .about, .styles, .banner-dott1 {
     padding: 100px 0 60px;
 }
-h3.wthree_head {
+h3.spa_head {
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #000;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: auto;
+    display: table;
     margin-bottom: 30px;
+    border-bottom: 3px solid #5ec05d;
+    padding: .1em .25em;
 }
+
+
 .about h4 {
     text-align: center;
     font-size: 25px;
@@ -382,7 +390,7 @@ h3.wthree_head {
     color: #404040;
     margin-bottom: 20px;
 }
-.readmore a,.w3_agile_mail_grid input[type="submit"]{
+.readmore a,.spa_agile_mail_grid input[type="submit"]{
     padding: 10px 25px;
     background: #313131;
     color: #fff;
@@ -400,7 +408,7 @@ h3.wthree_head {
 /* //styles */
 
 /*--/price-section--*/
-.w3l_about_bottom_left_video.book-text {
+.spal_about_bottom_left_video.book-text {
     width: 100%;
     top: 50%;
     left: 0;
@@ -415,37 +423,37 @@ h3.wthree_head {
     font-weight: normal;
     margin-top: .5em;
 }
-.w3l_about_bottom_right {
+.spal_about_bottom_right {
     padding: 3em 3em 5em;
     background: #313131;
 }
-.w3l_about_bottom_left {
+.spal_about_bottom_left {
     padding: 0;
     position: relative;
 }
-.wthree-grids-price h4 {
+.spa-grids-price h4 {
     float: left;
     font-size: 1.2em;
     color: #fff;
 }
-.wthree-grids-price h5 {
+.spa-grids-price h5 {
     float: right;
        color: #03A9F4;
     font-size: 1.4em;
 }
-.wthree-grids-price {
+.spa-grids-price {
     padding: 16.5px 0;
     border-bottom: 1px solid #ddd;
 }
-.w3l_about_bottom_left{
-    background: url(../images/price.jpg) no-repeat 0px 0px;
+.spal_about_bottom_left{
+    background: url(../images/img1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-       min-height: 577px;
+       min-height: 396px;
 }
-.w3l_about_bottom_right p {
+.spal_about_bottom_right p {
     margin: 1em 0 0;
     color: #adadad;
     line-height: 1.9em;
@@ -463,31 +471,24 @@ h3.wthree_head {
 
 .price_box > div {
     display: table-cell;
-    width: 33%;
-    border: 1px solid red;
+    border-bottom: 1px solid #aaa;
+    font-weight: bold;
+    padding-top: .75em;
 }
+
+.price_box > div:first-child {
+    width: 85%;
+}
+
+.price_box > div:last-child {
+    color: #188FE4;
+    white-space: nowrap;
+}
+
+
 /*--//price-section--*/
 
-/* heading style */
-.wthree_head:before, .wthree_head:after {
-    position: absolute;
-    background: #5ec05d;
-    height: 2px;
-    content: '';
-    width: 12%;
-}
-.wthree_head:after {
-    width: 17%;
-    right: 42%;
-    bottom: 0%;
-}
-i.fa.fa-scissors {
-    position: absolute;
-    right: 49%;
-    bottom: 100%;
-    color: #cc4141;
-}
-/* //heading style */
+
 
 /*-- clients--*/
 .clients{
@@ -529,7 +530,7 @@ i.fa.fa-scissors {
 /*-- //clients--*/
 
 /*-- gallery --*/
-.w3l_gallery_grid li{
+.spal_gallery_grid li{
 	display: inline-block;
     float: left;
     width: 25%;
@@ -567,7 +568,7 @@ i.fa.fa-scissors {
        padding: 7em 2em 2em;
 }
 .box,.box .overbox {
-	height: 250px;
+	height: 200px;
 }
 .box:hover .overbox { opacity: 1; }
 
@@ -586,9 +587,8 @@ i.fa.fa-scissors {
     padding: 12px 10px;
     border: 1px solid rgba(204, 204, 204, 0.3);
     display: block;
-    font-weight: bold;
     font-size: 1.5em;
-    width: 70%;
+    width: 80%;
     margin: 0 auto 1em;
     background: rgba(3, 169, 244, 0.2);
     text-transform: uppercase;
@@ -662,7 +662,7 @@ ul#lightGallery {
 .contactaddress {
     padding: 60px 0;
 }
-.w3_mail_grids {
+.spa_mail_grids {
     padding: 30px 60px;
     background: #cc4141;
 }
@@ -688,7 +688,7 @@ ul#lightGallery {
 .contactaddress h5 a:hover{
     color: #5ec05d;
 }
-.w3_agile_mail_grid input[type="text"], .w3_agile_mail_grid input[type="email"], .w3_agile_mail_grid input[type="tel"]  {
+.spa_agile_mail_grid input[type="text"], .spa_agile_mail_grid input[type="email"], .spa_agile_mail_grid input[type="tel"]  {
     border: 1px solid #e4e4e4;
     outline: none;
     -webkit-appearance: none;
@@ -700,7 +700,7 @@ ul#lightGallery {
     background: #f5f5f5;
     padding: 1em 1em;
 }
-.w3_agile_mail_grid textarea {
+.spa_agile_mail_grid textarea {
     outline: none;
     width: 100%;
     background: #f5f5f5;
@@ -712,16 +712,16 @@ ul#lightGallery {
     min-height: 189px;
     font-weight: 400;
 }
-.w3_agile_mail_grid input[type="email"],.w3_agile_mail_grid textarea {
+.spa_agile_mail_grid input[type="email"],.spa_agile_mail_grid textarea {
     margin: 1.2em 0;
 }
-.w3_mail_grids h3 {
+.spa_mail_grids h3 {
     color: #000;
     font-size: 26px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.w3_mail_grids p {
+.spa_mail_grids p {
     font-size: 14px;
     color: #fff;
     margin: 20px 0px;
@@ -800,18 +800,25 @@ a.facebook {
 }
 /*-- //to-top --*/
 
+.content {
+    margin: 2em;
+    font-size: 1.25em;
+}
+
+.color {color: #188FE4}
+
 /* responsive design */
 
 @media screen and (max-width: 1440px){
-	.w3l_about_bottom_left {
-		min-height: 605px;
+	.spal_about_bottom_left {
+		min-height: 396px;
 	}
 	.box, .box .overbox {
 		height: 243px;
 	}
 }
 @media screen and (max-width: 1366px){
-	.w3-banner {
+	.spa-banner {
 		padding: 11em 0 15em 0;
 	}
 	.box, .box .overbox {
@@ -822,7 +829,7 @@ a.facebook {
 	}
 }
 @media screen and (max-width: 1280px){
-	.w3-banner {
+	.spa-banner {
 		padding: 11em 0 12em 0;
 	}
 	.box, .box .overbox {
@@ -868,7 +875,7 @@ a.facebook {
 	.gallery, .about, .styles, .banner-dott1 {
 		padding: 70px 0 40px;
 	}
-	.w3l_gallery_grid li {
+	.spal_gallery_grid li {
 		width: 33.33%;
 	}
 	.box, .box .overbox {
@@ -890,7 +897,7 @@ a.facebook {
 	#typer {
 		font-size: 2.8em !important;
 	}
-	.w3-banner p {
+	.spa-banner p {
 		width: 77%;
 		font-size: 15px;
 	}
@@ -908,7 +915,7 @@ a.facebook {
 		font-size: 2.7em !important;
 		letter-spacing: 2px;
 	}
-	.w3-banner p {
+	.spa-banner p {
 		width: 80%;
 		font-size: 15px;
 		letter-spacing: 1px;
@@ -917,10 +924,10 @@ a.facebook {
 	.box, .box .overbox {
 		height: 231px;
 	}
-	.w3_agile_mail_grid input[type="text"], .w3_agile_mail_grid input[type="email"], .w3_agile_mail_grid input[type="tel"] {
+	.spa_agile_mail_grid input[type="text"], .spa_agile_mail_grid input[type="email"], .spa_agile_mail_grid input[type="tel"] {
 		padding: .71em 1em;
 	}
-	.w3-banner {
+	.spa-banner {
 		padding: 10em 0 10em 0;
 	}
 	.about h4 {
@@ -931,8 +938,7 @@ a.facebook {
 		width: 33%;
 		float: left;
 	}
-	.w3l_about_bottom_left, .w3l_about_bottom_right {
-		min-height: 605px;
+	.spal_about_bottom_left, .spal_about_bottom_right {
 		width: 50%;
 		float: left;
 	}
@@ -966,12 +972,10 @@ a.facebook {
 	.navbar-nav {
 		margin-left: 2em;
 	}
-	.w3_agile_mail_grid textarea {
+	.spa_agile_mail_grid textarea {
 		min-height: 70px;
 	}
-	.wthree_head:before, .wthree_head:after {
-		width: 18%;
-	}
+	
 	.contactimg {
 		margin-top: 0em;
 	}
@@ -1003,16 +1007,16 @@ a.facebook {
 	#typer {
 		font-size: 2.4em !important;
 	}
-	.w3-banner {
+	.spa-banner {
 		padding: 9em 0;
 	}
-	.w3ls-phone h2 {
-		font-size: 1em;
+	.spals-phone h2 {
+		font-size: 1.2em;
 	}
 	.price-list {
 		padding: 0 0em;
 	}
-	.w3l_about_bottom_right p {
+	.spal_about_bottom_right p {
 		font-size: 14px;
 		letter-spacing: .3px;
 	}
@@ -1024,14 +1028,14 @@ a.facebook {
 	#typer {
 		font-size: 2em !important;
 	}
-	.w3-banner p {
+	.spa-banner p {
 		width: 92%;
 		font-size: 14px;
 	}
-	.wthree-grids-price h4 {
+	.spa-grids-price h4 {
 		font-weight: 300;
 	}
-	.w3l_about_bottom_right {
+	.spal_about_bottom_right {
 		padding: 2em 2.5em 3em;
 	}
 	.box, .box .overbox {
@@ -1049,7 +1053,7 @@ a.facebook {
 	}
 }
 @media screen and (max-width: 768px){
-	.w3l_about_bottom_left, .w3l_about_bottom_right {
+	.spal_about_bottom_left, .spal_about_bottom_right {
 		min-height: 400px;
 		width: 100%;
 		float: left;
@@ -1139,10 +1143,11 @@ a.facebook {
 	.box .title {
 		font-size: 1.2em;
 	}
-	h3.wthree_head {
+	h3.spa_head {
 		font-size: 35px;
 		margin-bottom: 25px;
 	}
+
 	.top-bar {
 		padding: 20px 0;
 	}
@@ -1186,7 +1191,7 @@ a.facebook {
 		font-size: 1.8em !important;
 		letter-spacing: 1px;
 	}
-	.w3l_gallery_grid li {
+	.spal_gallery_grid li {
 		width: 50%;
 	}
 	.box, .box .overbox {
@@ -1233,11 +1238,11 @@ a.facebook {
 		font-size: 1.7em !important;
 		letter-spacing: 1px;
 	}
-	.contact-box a:hover, .w3read a {
+	.contact-box a:hover, .sparead a {
 		padding: 10px 18px;
 		font-size: 14px;
 	}
-	.contact-box a, .w3read a:hover {
+	.contact-box a, .sparead a:hover {
 		padding: 10px 18px;
 		font-size: 14px;
 	}
@@ -1253,7 +1258,7 @@ a.facebook {
 	.contact-box {
 		width: 19%;
 	}
-	.w3-banner {
+	.spa-banner {
 		padding: 7em 0;
 	}
 	.contactaddress h4 {
@@ -1268,15 +1273,15 @@ a.facebook {
 	#typer {
 		font-size: 1.6em !important;
 	}
-	.w3-banner p {
+	.spa-banner p {
 		font-size: 13.5px;
 		line-height: 26px;
 	}
-	.w3-banner {
+	.spa-banner {
 		padding: 6em 0;
 	}
 	.price-list {
-		padding: 0 3em;
+		padding: 0;
 	}
 	.stylegridimg, .stylegridtext {
 		width: 80%;
@@ -1296,7 +1301,7 @@ a.facebook {
 		font-size: 25px;
 	}
 	.navbar-default .navbar-brand {
-		font-size: 34px;
+		font-size: 25px;
 	}
 	.aboutright {
 		padding: 20px 40px;
@@ -1318,10 +1323,10 @@ a.facebook {
 	.price-list {
 		padding: 0 2em;
 	}
-	.wthree-grids-price h4 {
+	.spa-grids-price h4 {
 		font-size: 1em;
 	}
-	.wthree-grids-price h5 {
+	.spa-grids-price h5 {
 		font-size: 1em;
 	}
 	.box, .box .overbox {
@@ -1339,7 +1344,7 @@ a.facebook {
 	#typer {
 		height: 70px;
 	}
-	.w3_mail_grids {
+	.spa_mail_grids {
 		padding: 30px 40px;
 	}
 	.box .overbox {
@@ -1358,8 +1363,8 @@ a.facebook {
 	}
 }
 @media screen and (max-width: 414px){
-	.w3ls-phone h2 {
-		font-size: 14px;
+	.spals-phone h2 {
+		font-size: 1.2em;
 	}
 	.top-banner-right ul li a {
 		font-size: 14px;
@@ -1368,7 +1373,7 @@ a.facebook {
 		right: 5%;
 		bottom: 5%;
 	}
-	.w3ls-phone {
+	.spals-phone {
 		left: 5%;
 		bottom: 5%;
 	}
@@ -1378,7 +1383,7 @@ a.facebook {
 	.stylegridimg, .stylegridtext {
 		width: 90%;
 	}
-	.w3l_gallery_grid li {
+	.spal_gallery_grid li {
 		width: 100%;
 	}
 	.box, .box .overbox {
@@ -1387,16 +1392,16 @@ a.facebook {
 	.box .overbox {
 		padding: 8em 2em 2em;
 	}
-	.w3_mail_grids {
+	.spa_mail_grids {
 		padding: 30px;
 	}
 	.contact-box {
 		width: 26%;
 	}
 	.navbar-default .navbar-brand {
-		font-size: 32px;
+		font-size: 20px;
 	}
-	h3.wthree_head {
+	h3.spa_head {
 		font-size: 30px;
 	}
 	.aboutright {
@@ -1411,7 +1416,7 @@ a.facebook {
 	}
 }
 @media screen and (max-width: 384px){
-	.w3l_about_bottom_left, .w3l_about_bottom_right {
+	.spal_about_bottom_left, .spal_about_bottom_right {
 		min-height: 245px;
 	}
 	.stylegridtext p {
@@ -1432,7 +1437,7 @@ a.facebook {
 		right: 32%;
 		bottom: 1%;
 	}
-	.w3ls-phone {
+	.spals-phone {
 		left: 20%;
 		bottom: 6%;
 	}
@@ -1450,7 +1455,7 @@ a.facebook {
 	}
 }
 @media screen and (max-width: 320px){
-	.w3ls-phone {
+	.spals-phone {
 		left: 15%;
 		margin: 1em 0;
 	}
@@ -1467,21 +1472,21 @@ a.facebook {
 		font-size: 13px;
 		line-height: 20px;
 	}
-	.w3l_about_bottom_right {
+	.spal_about_bottom_right {
 		padding: 2em 1.5em 3em;
 	}
 	.box, .box .overbox {
 		height: 211px;
 	}
-	.w3_mail_grids {
+	.spa_mail_grids {
 		padding: 30px 20px;
 	}
-	.w3_mail_grids p {
+	.spa_mail_grids p {
 		font-size: 13px;
 		line-height: 26px;
 	}
 	.navbar-default .navbar-brand {
-		font-size: 28px;
+		font-size: 17px;
 	}
 	.contact-box {
 		width: 34%;
@@ -1489,14 +1494,14 @@ a.facebook {
 	.navbar-toggle {
 		padding: 8px 7px;
 	}
-	.w3read {
+	.sparead {
 		margin-top: 1em;
 	}
-	.contact-box a, .w3read a:hover {
+	.contact-box a, .sparead a:hover {
 		padding: 8px 16px;
 		font-size: 14px;
 	}
-	.contact-box a:hover, .w3read a {
+	.contact-box a:hover, .sparead a {
 		padding: 8px 16px;
 		font-size: 14px;
 	}
@@ -1506,7 +1511,7 @@ a.facebook {
 	.box .overbox {
 		padding: 5.5em 2em 2em;
 	}
-	.w3-banner {
+	.spa-banner {
 		padding: 2em 0 5em;
 	}
 	.gallery, .about, .styles, .banner-dott1 {

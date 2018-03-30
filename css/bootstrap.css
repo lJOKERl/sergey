@@ -1585,11 +1585,7 @@ pre code {
     width: 100%;
   }
 }
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
+
 @media (min-width: 1200px) {
   .container {
     width: 100%;
@@ -1957,7 +1953,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 33%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -5822,7 +5818,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 60%;
     margin: 30px auto;
   }
   .modal-content {
@@ -5836,6 +5832,11 @@ button.close {
 @media (min-width: 992px) {
   .modal-lg {
     width: 900px;
+  }
+
+  .modal-dialog {
+    width: 60%;
+    margin: 30px auto;
   }
 }
 .tooltip {

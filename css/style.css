@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=cyrillic');
+
 html, body{
-    font-size: 100%;
+    font-size: 1.2em;
 	background:#ffffff;
 	margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 p,ul li,ol li{
 	margin:0;
@@ -50,11 +54,11 @@ div#bs-example-navbar-collapse-1 {
 }
 .contact-box {
     float: right;
-    width: 10%;
+    width: 15%;
     margin: 15px 0 15px;
 }
 .navbar-nav {
-    margin-left: 5em;
+    margin-left: 1em;
 }
 .contact-box a,.sparead a:hover {
     background: #fff;
@@ -95,7 +99,7 @@ div#bs-example-navbar-collapse-1 {
 a.navbar-brand img {
     display: inline-block;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default  .navbar-default .navbar-form {
     padding: 0;
 }
 .navbar-default .navbar-brand:hover {
@@ -112,7 +116,7 @@ a.navbar-brand span {
 }
 .navbar-header {
     margin-top: 15px;
-    width: 20%;
+    width: 25%;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
@@ -120,7 +124,7 @@ a.navbar-brand span {
 }
 .navbar-default .navbar-nav > li > a{
   color: #fff;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 .navbar-nav > li > a {
   padding-top: 16px;
@@ -219,7 +223,6 @@ a.navbar-brand span {
     font-size: 3em !important;
     letter-spacing: 3px;
     text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
 }
 .top-banner-right {
     position: absolute;
@@ -242,16 +245,13 @@ a.navbar-brand span {
 .top-banner-right ul li:nth-child(4){
 	margin-right:0;
 }
-.top-banner-right ul li a{
-	color:#fff;
-	font-size:1.2em;
-}
+
 .top-banner-right ul li a:hover{
     color: #CDDC39;
 }
 .spals-phone h2 {
     color: #000;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0;
     text-align: center;
     font-weight: 300;
@@ -265,7 +265,7 @@ i.fa.fa-phone {
 
 /*-- bootstrap-modal-pop-up --*/
 .modal-header {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #000;
     text-align: center;
     text-transform: uppercase;
@@ -302,13 +302,16 @@ button.close {
     font-size: 1.5em;
     color:#000;
 	outline: none;
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
 /*-- //bootstrap-modal-pop-up --*/
 
 /* about */
-.gallery, .about, .styles, .banner-dott1 {
+/*.gallery, .about, .styles, .banner-dott1 {
     padding: 100px 0 60px;
-}
+}*/
 h3.spa_head {
     position: relative;
     text-align: center;
@@ -317,8 +320,10 @@ h3.spa_head {
     text-transform: uppercase;
     letter-spacing: .1em;
     margin: auto;
+    font-weight: 300;
     display: table;
-    margin-bottom: 30px;
+    margin-bottom: 1em;
+    margin-top: 1em;
     border-bottom: 3px solid #5ec05d;
     padding: .1em .25em;
 }
@@ -376,7 +381,7 @@ h3.spa_head {
     padding: 0;
 }
 .stylegridtext {
-    padding: 40px 60px;
+    padding: 40px 20px;
 }
 .stylegridtext h3 {
     font-size: 28px;
@@ -385,7 +390,7 @@ h3.spa_head {
     color: #2196F3;
 }
 .stylegridtext p {
-    font-size: 14px;
+    font-size: .9em;
     line-height: 27px;
     color: #404040;
     margin-bottom: 20px;
@@ -424,7 +429,7 @@ h3.spa_head {
     margin-top: .5em;
 }
 .spal_about_bottom_right {
-    padding: 3em 3em 5em;
+    padding: 2.63em 3em 5em;
     background: #313131;
 }
 .spal_about_bottom_left {
@@ -472,7 +477,6 @@ h3.spa_head {
 .price_box > div {
     display: table-cell;
     border-bottom: 1px solid #aaa;
-    font-weight: bold;
     padding-top: .75em;
 }
 
@@ -483,6 +487,7 @@ h3.spa_head {
 .price_box > div:last-child {
     color: #188FE4;
     white-space: nowrap;
+    font-weight: 400;
 }
 
 
@@ -637,7 +642,7 @@ ul#lightGallery {
 }
 .modal-content p {
     color: #676464;
-    font-size: 14px;
+    font-size: 1.75em;
     line-height: 28px;
     letter-spacing: 0.2px;
     word-spacing: 1px;
@@ -647,8 +652,7 @@ ul#lightGallery {
     padding: 20px 30px;
 }
  .modal-dialog {
-    width: 600px;
-    margin: 109px auto;
+    margin: 2em auto;
 }
 .agileits_about_left h3 {
     text-align: left;
@@ -661,6 +665,9 @@ ul#lightGallery {
 /* contact */
 .contactaddress {
     padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    display: table;
 }
 .spa_mail_grids {
     padding: 30px 60px;
@@ -753,7 +760,7 @@ iframe {
 }
 a.facebook {
     color: #fff;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 .copyrighttop {
     margin-bottom: 20px;
@@ -816,6 +823,7 @@ a.facebook {
 	.box, .box .overbox {
 		height: 243px;
 	}
+     #lightGallery-action {left: 50%}
 }
 @media screen and (max-width: 1366px){
 	.spa-banner {
@@ -827,13 +835,14 @@ a.facebook {
 	.box .overbox {
 		padding: 6em 2em 2em;
 	}
+     #lightGallery-action {left: 50%}
 }
 @media screen and (max-width: 1280px){
 	.spa-banner {
 		padding: 11em 0 12em 0;
 	}
 	.box, .box .overbox {
-		height: 216px;
+		height: 190px;
 	}
 }
 @media screen and (max-width: 1080px){
@@ -872,9 +881,9 @@ a.facebook {
 		line-height: 26px;
 		margin-bottom: 10px;
 	}
-	.gallery, .about, .styles, .banner-dott1 {
+/*	.gallery, .about, .styles, .banner-dott1 {
 		padding: 70px 0 40px;
-	}
+	}*/
 	.spal_gallery_grid li {
 		width: 33.33%;
 	}
@@ -954,7 +963,7 @@ a.facebook {
 		margin-bottom: 15px;
 	}
 	.box, .box .overbox {
-		height: 223px;
+		height: 215px;
 	}
 	.flex-active-slide p {
 		width: 90%;
@@ -962,7 +971,7 @@ a.facebook {
 		font-size: 14px;
 	}
 	.addressgrid1 {
-		width: 25%;
+		width: 33%;
 		float: left;
 		text-align: center;
 	}
@@ -975,29 +984,35 @@ a.facebook {
 	.spa_agile_mail_grid textarea {
 		min-height: 70px;
 	}
+
+    #lightGallery-action {left: 50%}
 	
 	.contactimg {
 		margin-top: 0em;
 	}
+
+    .col-md-3.addressgrid1 {width: 33%}
+
+    .modal-dialog {
+    width: 60%;
+    margin: 30px auto;
+  }
 }
 @media screen and (max-width: 991px){
 	.navbar-nav {
 		margin-left: 2em;
 	}
 	.stylegridtext {
-		padding: 0px 10px 50px 20px;
+		padding: 10px 10px 50px 20px;
 	}
 	.stylegrid3 .stylegridtext {
-		padding: 0px 10px 0px 20px;
+		padding: 10px 10px 0px 20px;
 	}
 	div#bs-example-navbar-collapse-1 {
 		float: left;
-		width: 100%;
 	}
 	.navbar-nav {
-		margin-left: 12em;
-		margin-top: -.5em;
-		float: right;
+		margin-top: 0;
 	}
 	.contact-box {
 		width: 23%;
@@ -1021,7 +1036,7 @@ a.facebook {
 		letter-spacing: .3px;
 	}
 	.box, .box .overbox {
-		height: 202px;
+		height: 180px;
 	}
 }
 @media screen and (max-width: 800px){
@@ -1034,9 +1049,6 @@ a.facebook {
 	}
 	.spa-grids-price h4 {
 		font-weight: 300;
-	}
-	.spal_about_bottom_right {
-		padding: 2em 2.5em 3em;
 	}
 	.box, .box .overbox {
 		height: 180px;
@@ -1058,6 +1070,8 @@ a.facebook {
 		width: 100%;
 		float: left;
 	}
+
+     #lightGallery-action {left: 50%}
 
 	.box, .box .overbox {
 		height: 172px;
@@ -1148,6 +1162,8 @@ a.facebook {
 		margin-bottom: 25px;
 	}
 
+    .modal-dialog {width: 95%}
+
 	.top-bar {
 		padding: 20px 0;
 	}
@@ -1215,6 +1231,14 @@ a.facebook {
 		float: none;
 		margin: 0 auto;
 	}
+    #lightGallery-action {left: 44%}
+    .col-md-3.addressgrid1 {width: 100%;}
+    
+    .stylegrid2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 	.stylegridtext {
 		padding: 20px 10px 50px 20px;
 		width: 85%;
@@ -1232,6 +1256,8 @@ a.facebook {
 	.box, .box .overbox {
 		height: 216px;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 600px){
 	#typer {
@@ -1268,6 +1294,10 @@ a.facebook {
 	.box .overbox {
 		padding: 5em 2em 2em;
 	}
+
+    .modal-dialog {width: 95%}
+
+    .col-md-3.addressgrid1 {width: 100%;}
 }
 @media screen and (max-width: 568px){
 	#typer {
@@ -1318,11 +1348,13 @@ a.facebook {
 	.stylegrid3 {
 		margin-top: 0em;
 	}	
+
+    .modal-dialog {width: 95%}
+
+    .col-md-3.addressgrid1 {width: 100%;}
 }
 @media screen and (max-width: 480px){
-	.price-list {
-		padding: 0 2em;
-	}
+
 	.spa-grids-price h4 {
 		font-size: 1em;
 	}
@@ -1353,6 +1385,8 @@ a.facebook {
 	.stylegridimg, .stylegridtext {
 		width: 90%;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 440px){
 	.box, .box .overbox {
@@ -1361,13 +1395,16 @@ a.facebook {
 	.box .title {
 		width: 85%;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 414px){
 	.spals-phone h2 {
-		font-size: 1.2em;
+		font-size: 1.3em;
+        margin-top: .2em;
 	}
 	.top-banner-right ul li a {
-		font-size: 14px;
+		font-size: 1.2em;
 	}
 	.top-banner-right {
 		right: 5%;
@@ -1414,13 +1451,15 @@ a.facebook {
 	.addressgrid1:nth-child(4), .addressgrid1:nth-child(5) {
 		margin-bottom: 30px;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 384px){
 	.spal_about_bottom_left, .spal_about_bottom_right {
 		min-height: 245px;
 	}
 	.stylegridtext p {
-		font-size: 13.5px;
+		font-size: .8em;
 	}
 	.box, .box .overbox {
 		height: 255px;
@@ -1431,15 +1470,17 @@ a.facebook {
 	.box .overbox {
 		padding: 7em 2em 2em;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 375px){
 	.top-banner-right {
-		right: 32%;
+		right: 40%;
 		bottom: 1%;
 	}
 	.spals-phone {
-		left: 20%;
-		bottom: 6%;
+		left: 11%;
+		bottom: 5%;
 	}
 	.stylegridimg, .stylegridtext {
 		width: 100%;
@@ -1453,6 +1494,8 @@ a.facebook {
 	.clients h4 {
 		font-size: 13px;
 	}
+
+    .modal-dialog {width: 95%}
 }
 @media screen and (max-width: 320px){
 	.spals-phone {
@@ -1514,8 +1557,16 @@ a.facebook {
 	.spa-banner {
 		padding: 2em 0 5em;
 	}
-	.gallery, .about, .styles, .banner-dott1 {
-		padding: 50px 0 40px;
-	}
+
+    .col-md-3.addressgrid1 {width: 100%;}
+
+    .modal-dialog {width: 95%}
+
+    
 }
 /* //responsive design */
+
+.container {margin: 3em auto}
+.price {margin-bottom: 3em}
+.top-bar .container {margin: 1em auto;}
+.price .spal_about_bottom_right {padding: 1.41em; font-size: .9em;}
